@@ -1,0 +1,39 @@
+body {
+    text-align: justify;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid; 
+}
+
+.color1 {
+    background: orange;
+    text-align: center;
+    color: white;
+    border: 1px white;
+    border-collapse: collapse;
+}
+
+.color2 {
+    background: blue;
+    text-align: center;
+    border: 1px hidden;
+    height: 20px;
+    border-collapse: collapse;
+
+}
+
+.color3 {
+    background: orange;
+    text-align: center;
+    border: 1px hidden;
+    border-collapse: collapse;
+
+}
+
+.tab1 td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

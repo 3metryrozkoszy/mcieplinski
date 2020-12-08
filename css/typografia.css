@@ -1,0 +1,23 @@
+.tekst1 {
+    font-size: 16px;
+}
+
+.tekst2 {
+    font-size: 16pt;
+}
+
+.tekst3 {
+    font-size: 2em;
+}
+
+.tekst4 {
+    line-height: 2px;
+}
+
+.tekst5 {
+    font-size: x-large;
+}
+
+.tekst6 {
+    font-weight: 800;
+}
