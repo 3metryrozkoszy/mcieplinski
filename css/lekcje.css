@@ -1,7 +1,11 @@
-tr {
-    background-color: pink;
-    font-family:'Indie Flower';
+table {
     border:1px,solid,black;
+    background-color: pink;
+}
+tr {
+    
+    font-family:'Indie Flower';
+    
 
 }
 
