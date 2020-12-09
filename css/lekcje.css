@@ -1,0 +1,9 @@
+tr {
+    color: pink;
+    font-family:'Indie Flower';
+
+}
+
+ul {
+    list-style-image: url("img/ikona.png");
+}
