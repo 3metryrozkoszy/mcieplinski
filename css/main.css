@@ -53,23 +53,14 @@ nav {
 .title a {
 
     color: #2A2D34;
-
-    text-shadow: 2px 2px #A0DDE6;
-
+    text-shadow: 2px 2px #8D99AE;
     font-size: 30px;
-
     box-sizing: border-box;
-
     margin: 20px 40px;
-
     border: solid;
-
     padding: 10px;
-
-    background-color: #30C5FF;
-
-    border-color: #A0DDE6;
-
+    background-color: #EF233C;
+    border-color: #2B2D42;
     transition: all 0.3s ease 0s;
 
     
