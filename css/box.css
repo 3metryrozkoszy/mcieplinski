@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+
+}
+
+div.pojemnik{
+    border: 2px solid #2B2D42;
+    width: 600px;
+    height: 520px;
+    margin: 20px;
+
+}
+
+div.box_model1 {
+    border: 2px solid #8D99AE;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    background-color: #2B2D42;
+
+}
+
+div.box_model2 {
+    border: 2px solid #8D99AE;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    background-color: #8D99AE;
+
+}
+
+div.box_model3 {
+    border: 2px solid #8D99AE;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    background-color: #EDF2F4;
+
+}
+
+div.box_model4 {
+    border: 2px solid #8D99AE;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    background-color: #EF233C;
+
+}
+
+div.box_model5 {
+    border: 2px solid #8D99AE;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    background-color: #D90429;
+
+}
+
+p.akapit2 {
+    width: 30%;
+    padding: 30px 30px 30px 30px;
+
+}
