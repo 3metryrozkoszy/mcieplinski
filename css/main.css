@@ -1,5 +1,7 @@
 
-
+.links a:visited {
+    color: #2B2D42;
+}
 
 
 nav {
@@ -43,6 +45,8 @@ nav {
     margin: 10px 30px;
 
     border: solid;
+
+
 
 }
 
