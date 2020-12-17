@@ -1,41 +1,81 @@
-/*https://coolors.co/30c5ff-2a2d34-5c946e-80c2af-a0dde6 kolory jakie używam*/
-
-nav {
-    text-align: center;
-    top: 20%
-    backgound-color: #282828;
-}
-
-.links {
-    list-style: none;
-    box-sizing: border-box;
-}
-
-.links a {
-    display: inline-block;  
-    border-color: #30C5FF;
-    background-color: #A0DDE6;
-    font-color: #2A2D34
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 10px 30px;
-    border: solid;
-}
-.title a {
-    color: #2A2D34;
-    text-shadow: 2px 2px #A0DDE6;
-    font-size: 30px;
-    box-sizing: border-box;
-    margin: 20px 40px;
-    border: solid;
-    padding: 10px;
-    background-color: #30C5FF;
-    border-color: #A0DDE6;
-    transition: all 0.3s ease 0s;
-    
-}
-
-.home_arrow {
-    text-align: right;
+
+
+
+
+nav {
+
+    text-align: center;
+
+    top: 20%
+
+    backgound-color: #282828;
+
+}
+
+
+
+.links {
+
+    list-style: none;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.links a {
+
+    display: inline-block;  
+
+    border-color: #2B2D42;
+
+    background-color: #8D99AE;
+
+    font-color: #2A2D34
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    margin: 10px 30px;
+
+    border: solid;
+
+}
+
+.title a {
+
+    color: #2A2D34;
+
+    text-shadow: 2px 2px #A0DDE6;
+
+    font-size: 30px;
+
+    box-sizing: border-box;
+
+    margin: 20px 40px;
+
+    border: solid;
+
+    padding: 10px;
+
+    background-color: #30C5FF;
+
+    border-color: #A0DDE6;
+
+    transition: all 0.3s ease 0s;
+
+    
+
+}
+
+
+
+.home_arrow {
+
+    text-align: right;
+
 }
