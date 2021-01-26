@@ -1,5 +1,15 @@
 
+html {
+   background-color: #EDF2F4;
+
+}
+
 .links a:visited {
+    color: #2B2D42;
+
+}
+
+.ifno_info:visited {
     color: #2B2D42;
 
 }
@@ -16,7 +26,8 @@ nav {
 }
 
 .links {
-
+    
+    position: sticky;
     list-style: none;
     box-sizing: border-box;
     width: 100%;
@@ -59,7 +70,7 @@ nav {
     
     width: 100%;
     height: max-content;
-    background-color: #EDF2F4E;
+    background-color: #EDF2F4;
     margin: 0px;
     
 }
@@ -70,6 +81,7 @@ nav {
     width: 400px;
     background-color: #2B2D42;
     margin: 20px;
+    color: #EDF2F4;
     text-align:center;
     position: static;
     right: 200px;
@@ -83,4 +95,10 @@ nav {
     background-color: #D90429;
     margin: 0px;
 
+}
+
+.ifno_info {
+
+    list-style-type: disc;
+    color: #EDF2F4;
 }
