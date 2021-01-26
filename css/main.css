@@ -116,7 +116,7 @@ nav  {
 
 .aside_line {
 
-    height: 1504px;
+    height: max-content;
     width: 50px;
     z-index: 1;
     background-color: #D90429;
