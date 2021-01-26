@@ -26,7 +26,7 @@ nav {
 }
 
 .links {
-    
+
     position: sticky;
     list-style: none;
     box-sizing: border-box;
@@ -34,6 +34,9 @@ nav {
     height: auto;
     margin: 0px;
     background-color: #EF233C;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -48,6 +51,7 @@ nav {
     padding: 10px 20px;
     margin: 10px 30px;
     border: solid;
+   
 
 }
 
