@@ -23,6 +23,13 @@ html {
 
 }
 
+.banner {
+    
+   color: #000000;
+   top: 0px;
+
+}
+
 header {
 
     position: relative;
