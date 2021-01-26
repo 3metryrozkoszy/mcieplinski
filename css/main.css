@@ -34,10 +34,13 @@ nav {
     height: auto;
     margin: 0px;
     background-color: #EF233C;
+    
+}
+
+ul.links {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-
 }
 
 .links a {
