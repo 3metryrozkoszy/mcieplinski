@@ -1,3 +1,8 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
 
 html {
 
@@ -24,8 +29,9 @@ html {
 }
 
 .banner {
-
-     background-color:#000000;
+      
+     top: 0px;
+     background-color: #000000;
 
 }
 
