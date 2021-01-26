@@ -11,6 +11,12 @@ html {
 
 }
 
+.links a:hover {
+
+    color: #424244;
+
+}
+
 .info_info:visited {
 
     color: #2B2D42;
@@ -23,13 +29,12 @@ header {
 
 }
 
-nav {
+nav  {
 
-    text-align: center;
-    position: -webkit-sticky;
+    text-align: center; 
     position: sticky;
     top: 0;
-
+    
 }
 
 .links {
@@ -41,6 +46,7 @@ nav {
     margin: 0px;
     background-color: #EF233C;
     
+    
 }
 
 .links a {
@@ -48,13 +54,13 @@ nav {
     display: inline-block;  
     border-color: #2B2D42;
     background-color: #8D99AE;
-    font-color: #2A2D34
+    color: #2A2D34
     border-radius: 10px;
     text-decoration: none;
     padding: 10px 20px;
     margin: 10px 30px;
     border: solid;
-   
+       
 
 }
 
@@ -70,6 +76,7 @@ nav {
     background-color: #EF233C;
     border-color: #2B2D42;
     transition: all 0.3s ease 0s;
+    
 
 }
 
@@ -95,13 +102,16 @@ nav {
     
 }
 
-.main_line {
-    height: 1000px;
+.aside_line {
+
+    height: 1504px;
     width: 50px;
+    z-index: 1;
     background-color: #D90429;
-    float: left;
-    margin: 0px;
-   z-index: 1;
+    position: absolute;
+    right: 0px;
+    top:80px;
+    
 
 }
 
