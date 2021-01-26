@@ -101,6 +101,7 @@ nav {
     background-color: #D90429;
     float: left;
     margin: 0px;
+   z-index: 1;
 
 }
 
