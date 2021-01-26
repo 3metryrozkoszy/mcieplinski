@@ -1,20 +1,24 @@
 
 html {
+
    background-color: #EDF2F4;
 
 }
 
 .links a:visited {
+
     color: #2B2D42;
 
 }
 
-.ifno_info:visited {
+.info_info:visited {
+
     color: #2B2D42;
 
 }
 
 header {
+
     position: relative;
 
 }
@@ -27,20 +31,16 @@ nav {
 
 .links {
 
-    
     list-style: none;
     box-sizing: border-box;
     width: 100%;
     height: auto;
     margin: 0px;
     background-color: #EF233C;
-    
-}
-
-ul.links {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+
 }
 
 .links a {
@@ -104,8 +104,11 @@ ul.links {
 
 }
 
-.ifno_info {
+.info_info {
 
     list-style-type: disc;
     color: #EDF2F4;
+    display: list-item;
+    text-align: -webkit-match-parent;
+
 }
