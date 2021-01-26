@@ -78,3 +78,17 @@ nav {
     text-align: right;
 
 }
+
+.main_content {
+    
+    width: 100%;
+    height: 1000px;
+    background-color: #EF233C;
+}
+
+.info_content {
+
+    width: 100%;
+    height: 200px;
+    background-color: #D90429;
+}
