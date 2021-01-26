@@ -1,16 +1,14 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0px;
-}
 
 .links a:visited {
     color: #2B2D42;
+
 }
 
 
 nav {
 
     text-align: center;
+
 }
 
 
@@ -21,7 +19,7 @@ nav {
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    margin-top: 30px;
+    margin: 0px;
     background-color: #EDF2F4;
 
 }
@@ -40,8 +38,6 @@ nav {
     margin: 10px 30px;
     border: solid;
 
-
-
 }
 
 .title a {
@@ -56,8 +52,6 @@ nav {
     background-color: #EF233C;
     border-color: #2B2D42;
     transition: all 0.3s ease 0s;
-
-    
 
 }
 
@@ -75,6 +69,7 @@ nav {
     height: 1000px;
     background-color: #EF233C;
     margin: 0px;
+
 }
 
 .info_content {
@@ -83,4 +78,12 @@ nav {
     height: 100px;
     background-color: #D90429;
     margin: 0px;
+
+}
+
+.png {
+    height: 100px;
+    weight: 100px;
+    background-color: #2B2D42;
+    
 }
