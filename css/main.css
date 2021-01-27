@@ -38,7 +38,10 @@ html {
 
 nav  {
 
-    text-align: center; 
+    text-align: center;
+    position: sticky;
+    top: 0px;
+           
     
 }
 
@@ -50,9 +53,7 @@ nav .links {
     height: auto;
     margin: 0px;
     background-color: #e24d4d;
-    position: sticky;
-    top: 0px;
-           
+    
 }
 
 .links a {
