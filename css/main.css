@@ -52,9 +52,8 @@ nav  {
     background-color: #e24d4d;
     position: sticky;
     top: 0;
-    
-    
-    
+    z-index: 100;  
+        
 }
 
 .links a {
