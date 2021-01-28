@@ -103,14 +103,13 @@ nav .links {
     background-color: #2B2D42;
     margin: 20px;
     color: #EDF2F4;
-    text-align:center;
-    right: 200px;
+      
     
 }
 
 .main_zdj {
     
-    
+    float: right;
     margin:30px;
     
     
