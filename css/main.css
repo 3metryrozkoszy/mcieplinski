@@ -113,8 +113,8 @@ nav .links {
     
     position: absolute;
     z-index: 5;
-    right: 30px;
-    width:50%;
+    float:right;
+    
     
 }
 
