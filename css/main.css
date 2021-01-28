@@ -113,7 +113,9 @@ nav .links {
     
     position: absolute;
     z-index: 5;
-    left: 30px;
+    right: 30px;
+    width:50%;
+    
 }
 
 .aside_line {
