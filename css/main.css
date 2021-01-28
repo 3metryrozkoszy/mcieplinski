@@ -119,6 +119,7 @@ main {
     position: absolute;
     z-index: 5;
     float:right;
+    margin:30px;
     
     
 }
