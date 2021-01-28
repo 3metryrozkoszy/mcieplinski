@@ -1,0 +1,49 @@
+.container {
+
+    background-color:#8D99AE;
+
+}
+.pudelko1 {
+
+    background-color: #D90429;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+
+}
+    
+
+.pudelko2 {
+
+    background-color: #e24d4d;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+
+}
+
+.pudelko3 {
+
+    background-color:#2B2D42;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+.pudelko {
+
+    background-color:#EDF2F4;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+
+}
