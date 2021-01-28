@@ -109,6 +109,13 @@ nav .links {
     
 }
 
+.main_zdj {
+    
+    position: absolute;
+    z-index: 5;
+    left: 30px;
+}
+
 .aside_line {
 
     height: 1504px;
