@@ -87,6 +87,12 @@ nav .links {
 
 }
 
+main {
+    
+    width:100%;
+    
+}
+
 .main_content {
     
     width: 100%;
@@ -101,7 +107,7 @@ nav .links {
     height: 200px;
     width: 400px;
     background-color: #2B2D42;
-    margin: 2px;
+    margin: 20px;
     color: #EDF2F4;
       
     
@@ -109,11 +115,8 @@ nav .links {
 
 .main_zdj {
     
-    position:relative;
-    top:500px;
-    z-index:100;
-    
-    
+   float:right;
+       
 }
 
 .aside_line {
