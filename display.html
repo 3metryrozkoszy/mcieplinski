@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Pseudo-klasy</title>
+    
+        <link rel="icon" href="img/sushi.png">
+        
+        <meta name="robots" content="none">
+        
+        <meta name="author" content="Mateusz Ciepliński"/>
+        
+        <meta name="Japonia nie słynie tylko z kultury i historii. Poznaj bardzo rozległy świat japońskich smaków"/>
+
+        <style>
+            
+            .sub_menu {
+
+                display: none;
+                
+            }
+
+            .menu {
+
+                display: inline;
+                background-color:red;
+                color:white;
+                
+            }
+
+            .menu:hover {
+
+                background-color:grey;
+                color:black;
+
+            }
+
+            .menu:hover > .sub_menu {
+
+                display: inline;
+                background: white;
+
+            } 
+
+        </style>
+</head>
+<body>
+    
+    <div class="menu">
+        
+        TO JEST MENU
+
+        <div class="sub_menu">
+            
+            A TO POD-MENU
+           
+        </div>
+
+    </div>
+
+</body>
+</html>
