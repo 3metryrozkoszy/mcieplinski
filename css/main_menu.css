@@ -1,0 +1,154 @@
+/* *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0px;
+
+} */
+
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ebe0e0;
+    }
+    
+    
+    a{
+    
+    color: #000;
+    text-decoration: none;
+    
+    }
+    
+    
+    header{
+    
+    background-color:#000;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .1);
+    position: relative;
+    width: 100%;
+    z-index: 3;
+    margin-bottom: 20px;
+    
+    }
+    
+    
+    header ul{
+    
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #e24d4d;
+    }
+    
+    
+    header li a{
+    
+    display: block;
+    padding: 20px;
+    border-right: 1px solid #7a0d0d;
+    
+    }
+    
+    
+    header li a:hover,header.menu-btm:hover {
+    background-color: #c87070;
+    
+    }
+    
+    
+    header .logo{
+    
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    font-size: 2em;
+    
+    }
+    
+    header .menu{
+    clear: both;
+    max-height: 0;
+    transition: max-height 2s ;
+    -webkit-transition: max-height 2s;
+    -moz-transition: max-height 2s;
+    align-content: center;
+    }
+    
+    header .menu-icon{
+    cursor: pointer;
+    float: right;
+    padding: 30px 20px;
+    position: relative;
+    }
+    
+     header .menu-icon .navicon{
+    background-color: #000;
+    display: block;
+    height: 2px;
+    width: 15px;
+    position: relative;
+    }
+    
+     header .menu-icon .navicon::before, header .menu-icon .navicon::after{
+    content: "";
+    background-color: #000;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 4s ;
+    
+     }
+    header .menu-icon .navicon::before{
+    top: 5px;
+    }
+    header .menu-icon .navicon::after{
+    top: -5px;
+    }
+    
+     header .menu-btm{
+    display: none;
+    
+     }
+    header .menu-btm:checked~.menu{
+    max-height: 250px;
+    
+     }
+    header .menu-btm:checked~.menu-icon .navicon::before{
+    transform: rotate(45deg) translateY(-8px) ;
+    }
+    header .menu-btm:checked~.menu-icon .navicon::after{
+    transform: rotate(-45deg) translateY(6px);
+    
+     }
+    header .menu-btm:checked~.menu-icon .navicon{
+    background-color: transparent;
+    }
+    
+    
+    @media (min-width: 600px){
+    
+    header li{
+    float:left;
+    }
+    header .menu-icon{
+    display: none;
+    }
+    header .menu{
+    float: right;
+    clear: none;
+    max-height: none;
+    }
+
+   
+    }
+    
+    
+
+
+footer, footer > ul {
+
+    background-color: #e24d4d;
+    list-style-type: none;
+
+}
